@@ -30,7 +30,7 @@ class _viewpageState extends State<viewpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text("No Conatct")),
+      body: Center(child: Text("No Conatct found")),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.pushReplacement(context, MaterialPageRoute(

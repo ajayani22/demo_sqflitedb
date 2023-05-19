@@ -53,7 +53,7 @@ class _formpageState extends State<formpage> {
                   namestatus = true;
                   setState(() {});
                 } else if (contact.isEmpty) {
-                  contacterror = "Please enter the contact";
+                  contacterror = "Please enter contact";
                   setState(() {});
                 } else if (contact.length < 10) {
                   contacterror = "Please enter valid contact";
